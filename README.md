@@ -4,6 +4,14 @@ A multilingual Retrieval-Augmented Generation (RAG) assistant for the Singapore 
 
 This project uses Flask for the web interface, Ollama for the local language model, and Nomic multilingual embeddings for document retrieval.
 
+Sample Questions:
+1. When is the due date for an annual general meeting?
+2. When must a company appoint a company secretary?
+3. How does a company declare dividend?
+4. 根据公司法，公司最少需要多少名董事？
+5. Công ty chia cổ tức như thế nào?
+
+
 ## Features
 
 * Ask questions based on the Singapore Companies Act 1967
@@ -94,3 +102,7 @@ http://127.0.0.1:5000
 ## Author
 
 Created by Michelle / Curious Bear.
+
+## Special Thanks
+
+Special thanks to my teacher, Mr. Go Figure Out, for his guidance and encouragement.
