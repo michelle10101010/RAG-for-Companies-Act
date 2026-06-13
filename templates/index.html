@@ -1,0 +1,35 @@
+
+<head>
+    <title>COMPANIES ACT RAG Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='curious_bear.jpg') }}" 
+             alt="Curious Bear" 
+             class="mascot">
+             
+        <h1>COMPANIES ACT RAG Assistant</h1>
+        Ask Curious Bear a question based on the Companies Act.
+        <p class="subtitle">
+            
+        </p>
+
+        <form method="POST">
+            <textarea 
+                name="question" 
+                placeholder="Example: What is Companies Act about?"
+                required>{{ question }}</textarea>
+
+            <button type="submit">Ask</button>
+        </form>
+
+        {% if answer %}
+        <div class="answer-box">
+            <div class="answer-text">{{ answer }}</div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

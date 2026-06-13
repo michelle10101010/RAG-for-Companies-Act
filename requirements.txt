@@ -1,0 +1,5 @@
+flask
+pymupdf
+langchain
+langchain-community
+langchain-ollama
